@@ -5,8 +5,8 @@
 #
 # You can pass CROSS_COMPILE, PLATFORM and WBOXTEST variable.
 #
-CROSS_COMPILE	?=
-PLATFORM		?=
+CROSS_COMPILE	?= $(TOPDIR)/../out/sun8iw11p1/linux/common/buildroot/external-toolchain/bin/arm-linux-gnueabi-
+PLATFORM		?= arm32-a40ilinux
 WBOXTEST		?=
 
 #
